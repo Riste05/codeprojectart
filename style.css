@@ -328,7 +328,7 @@ body {
 .container-results .container-results-up {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     margin-bottom: 50px;
     gap: 30px;
@@ -337,7 +337,7 @@ body {
 .container-results .container-results-down {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     gap: 30px;
 }
