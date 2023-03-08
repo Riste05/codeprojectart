@@ -12,7 +12,9 @@ question.forEach(ques => {
 
         parent.classList.add('active');
         
-       parent.scrollIntoView() ;
+          parent.scrollIntoView({
+            behavior: 'smooth'
+         }) ;
 
     })
 
