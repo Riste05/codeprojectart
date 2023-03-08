@@ -11,6 +11,8 @@ question.forEach(ques => {
         question.forEach(ele => ele.classList.remove('active'));
 
         parent.classList.add('active');
+        
+       parent.scrollIntoView() ;
 
     })
 
